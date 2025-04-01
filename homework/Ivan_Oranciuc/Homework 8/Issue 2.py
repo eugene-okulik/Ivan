@@ -8,7 +8,6 @@ def fibonacci_generator():
         yield a
         a, b = b, a + b
 
-
 def get_fibonacci_number_at(index, gen):
     for _ in range(index):
         next(gen)
