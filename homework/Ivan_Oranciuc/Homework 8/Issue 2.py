@@ -2,11 +2,13 @@ import sys
 
 sys.set_int_max_str_digits(1000000)
 
+
 def fibonacci_generator():
     a, b = 0, 1
     while True:
         yield a
         a, b = b, a + b
+
 
 def get_fibonacci_number_at(index, gen):
     for _ in range(index):
