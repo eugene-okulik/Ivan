@@ -10,6 +10,7 @@ def hight_temperatures(temperatures):
 
 values_for_temperatures = list(filter(hight_temperatures, temperatures))
 
+
 print(f'Max temperature: {max(values_for_temperatures)}')
 print(f'Min temperature: {min(values_for_temperatures)}')
 print(f'Avg temperature: {round(fmean(values_for_temperatures))}')

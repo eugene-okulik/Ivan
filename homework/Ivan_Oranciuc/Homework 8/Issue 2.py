@@ -15,6 +15,7 @@ def get_fibonacci_number_at(index, gen):
         next(gen)
     return next(gen)
 
+
 fib_gen = fibonacci_generator()
 
 fifth = get_fibonacci_number_at(4, fib_gen)
